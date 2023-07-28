@@ -7,7 +7,7 @@ data = pd.read_csv("data/rawdata.txt", header=None, sep=" ", quoting=csv.QUOTE_N
 to_replace = {
     "false": "\nfalse",
     "true": "\ntrue",
-    "%": "\n"
+    "%": "\n",
 }
 
 for value, replace in to_replace.items():
