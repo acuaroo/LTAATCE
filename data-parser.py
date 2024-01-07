@@ -23,7 +23,7 @@ data.insert(0, "time", "")
 data.insert(1, "is_exploiting", "")
 data.insert(3, "x", "")
 data.insert(4, "y", "")
-data.insert(4, "z", "")
+data.insert(5, "z", "")
 
 for index, row in data.iterrows():
     modifier = 0
